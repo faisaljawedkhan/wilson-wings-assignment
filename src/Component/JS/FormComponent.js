@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import "../../Pages/CSS/AddInvestor.css"
 import "../../Pages/CSS/Investors.css"
-// import { useHistory } from 'react-router-dom';
+import image10 from "../../Assets/Navbar/investor-image.png"
 
 const FormComponent = () => {
     // const [formData, setFormData] = useState({});
@@ -55,7 +55,7 @@ const FormComponent = () => {
                             <div className="col-md-6 mb-3">
                                 <label htmlFor="formFile" className="form-label">Investor Profile Photo</label>
                                 <input className="form-control" type="file" id="formFile" name='formFile' onChange={handleImageChange} />
-                                {image && <img src={image} alt="Uploaded" />}
+                                {image && <img src={image10} alt="Uploaded" />}
                             </div>
                             <div className="col-md-6 mb-3">
                                 <label htmlFor="investorName" className="form-label">Investor Name</label>
