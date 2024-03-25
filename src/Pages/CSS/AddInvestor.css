@@ -1,0 +1,39 @@
+
+.form-heading {
+    background: #000000;
+    margin: 1rem 1rem;
+    padding: 0.5rem 1.5rem;
+    border-radius: 17px 17px 0 0;
+}
+
+.form-heading h2 {
+    color: #FFFFFF;
+    font-size: 21px;
+    font-weight: 600;
+    margin-bottom: 0.3rem;
+    letter-spacing: 0.4px;
+}
+
+.add-investor-form-div {
+    padding: 0.5rem 1.5rem;
+}
+
+.add-investor-form-div form {
+    border-right: 1px solid rgba(238, 238, 238, 1);
+    border-left: 1px solid rgba(238, 238, 238, 1);
+    border-radius: 0 0 17px 17px;
+}
+
+.submit-btn-div .submit-btn {
+    background: linear-gradient(91.36deg, #28CCC2 0%, #2887CC 100%);
+    outline: none;
+    border: none;
+    color: #FFFFFF;
+    padding: 0.6rem 4rem;
+    border-radius: 11px;
+}
+
+form label {
+    font-weight: 500;
+    color: #000000;
+}

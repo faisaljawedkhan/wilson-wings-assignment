@@ -1,0 +1,69 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Reem+Kufi:wght@400..700&display=swap');
+
+.filter-section-start-here {
+    width: 0px;
+    background: #FFFFFF;
+    border: 1px solid rgba(238, 238, 238, 1);
+    position: fixed;
+    right: 0;
+    top: 0;
+    font-family: "Reem Kufi", sans-serif;
+    overflow: hidden;
+    transition: all 0.5s ease-in-out;
+}
+
+.show-filter-div {
+    width: 351px;
+}
+
+.first-filter-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 1rem;
+}
+
+.first-filter-div h4 {
+    font-size: 23px;
+}
+
+.first-filter-div p {
+    font-size: 18px;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.filter-section-start-here input {
+    border: 1px solid rgba(40, 204, 194, 1)
+}
+
+.accordion-btn-div:not(.collapsed) {
+    color: rgba(85, 85, 85, 1) !important;
+    background-color: #FFFFFF !important;
+    box-shadow: none !important;
+}
+
+.accordion-body-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1rem;
+}
+
+.accordion-body-div button {
+    border: none;
+    outline: none;
+    padding: 0.4rem 2rem;
+    border-radius: 11px;
+    color: #FFFFFF;
+    font-weight: 600;
+}
+
+.accordion-body-div .reset {
+    background: rgba(211, 34, 34, 1);
+}
+
+.accordion-body-div .apply-filters {
+    background: linear-gradient(91.36deg, #28CCC2 0%, #2887CC 100%);
+}

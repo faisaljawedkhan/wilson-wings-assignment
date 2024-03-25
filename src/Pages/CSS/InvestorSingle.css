@@ -1,0 +1,203 @@
+
+.portfolio-log-and-investor-details-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 1.5rem;
+    padding: 1rem 1.5rem;
+    background: #FFFFFF;
+}
+
+.portfolio-log-and-investor-details-div button {
+    padding: 0.4rem 2rem;
+    color: #FFFFFF;
+    outline: none;
+    border-radius: 11px;
+    width: 251px;
+    font-weight: 600;
+}
+
+.portfolio-log-and-investor-details-div .active-btn {
+    background: linear-gradient(91.36deg, #28CCC2 0%, #2887CC 100%);
+    border: none;
+}
+
+.portfolio-log-and-investor-details-div .inactive-btn {
+    background: transparent;
+    color: #000000;
+    border: 1px solid #2887CC;
+}
+
+.fund-details-first-inner-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem 0.5rem 1rem 0.5rem;
+}
+
+.fund-details-first-inner-div h4, .log-details-first-inner-div h4 {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.fund-details-first-inner-div p {
+    font-family: 500;
+    font-size: 15px;
+}
+
+.fund-details-card-div {
+    margin: 1rem 0;
+}
+
+.fund-details-card-first-inner-div {
+    background: #FFFFFF;
+    border: 1px solid rgba(238, 238, 238, 1);
+    border-radius: 16px;
+    padding: 1rem 1rem;
+    height: 100%;
+}
+
+.fund-details-card-first-inner-div img {
+    width: 35px;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+.fund-details-card-first-inner-div p {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.fund-details-card-first-inner-div h3 {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.log-details-first-inner-div {
+    padding: 1rem 0.5rem 1rem 0.5rem;
+}
+
+.log-details-card-main-div {
+    margin: 1rem 0;
+}
+
+.log-details-card-main-first-inner-div {
+    height: 100%;
+}
+
+.unique-number-div, .view-details-btn {
+    background: #FFFFFF;
+    padding: 1rem 1.5rem;
+}
+
+.unique-number-div {
+    border: 1px solid rgba(238, 238, 238, 1);
+    border-bottom: none;
+    border-radius: 16px 16px 0 0;
+}
+
+.view-details-btn {
+    border: 1px solid rgba(238, 238, 238, 1);
+    border-top: none;
+    border-radius: 0 0 16px 16px;
+}
+
+.unique-number-div h4 {
+    color: rgba(85, 85, 85, 1);
+    font-size: 19px;
+    font-weight: 700;
+}
+
+.log-details-in-table-format table {
+    --bs-table-bg: rgba(249, 249, 249, 1) !important;
+    margin-bottom: 0;
+}
+
+.log-details-in-table-format table td p {
+    margin-bottom: 0.3rem;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.log-details-in-table-format table td h4 {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.log-details-in-table-format table td button {
+    outline: none;
+    border: none;
+    font-weight: 700;
+    font-size: 14px;
+    border-radius: 11px;
+    color: #FFFFFF;
+    padding: 0.3rem 0.5rem;
+}
+
+.log-details-in-table-format table td .committed {
+    background: rgba(197, 158, 22, 1);
+}
+
+.log-details-in-table-format table td .funded {
+    background: rgba(26, 197, 22, 1);
+}
+
+.log-details-in-table-format table td .interested {
+    background: rgba(22, 134, 197, 1);
+}
+
+.view-details-btn button {
+    width: 100%;
+    padding: 0.5rem 3rem;
+    border: none;
+    outline: none;
+    border-radius: 11px;
+    background: linear-gradient(91.36deg, #28CCC2 0%, #2887CC 100%);
+    color: #FFFFFF;
+    font-weight: 600;
+}
+
+/* MODAL CSS */
+.modal-header {
+    background: #000000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 17px 17px 0 0;
+}
+
+.modal-header h1 {
+    color: #FFFFFF;
+    font-size: 23px;
+    font-weight: 700;
+}
+
+.modal-header img {
+    width: 29px;
+    cursor: pointer;
+    height: auto;
+}
+
+.modal-footer button {
+    width: 100%;
+    color: #FFFFFF;
+    font-weight: 600;
+    padding: 0.4rem 3rem;
+    border-radius: 11px;
+    background: linear-gradient(91.36deg, #28CCC2 0%, #2887CC 100%);
+    border: none;
+    outline: none;
+}
+
+.modal-body label {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.modal-body input {
+    font-size: 16px;
+}
+
+.modal-body input::placeholder {
+    font-size: 16px;
+}
