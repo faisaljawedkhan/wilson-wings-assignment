@@ -258,7 +258,7 @@ const InvestorSingle = () => {
                                                                         </td>
                                                                         <td>
                                                                             <p>Transaction Type</p>
-                                                                            <h4>Buy</h4>
+                                                                            <h4>Sell</h4>
                                                                         </td>
                                                                     </tr>
                                                                     <tr>
@@ -304,7 +304,7 @@ const InvestorSingle = () => {
                                                                         </td>
                                                                         <td>
                                                                             <p>Transaction Type</p>
-                                                                            <h4>Buy</h4>
+                                                                            <h4>Transfer</h4>
                                                                         </td>
                                                                     </tr>
                                                                     <tr>
