@@ -4,31 +4,13 @@ import "../../Pages/CSS/Investors.css"
 import image10 from "../../Assets/Navbar/investor-image.png"
 
 const FormComponent = () => {
-    // const [formData, setFormData] = useState({});
-    // // const history = useHistory();
     const [image, setImage] = useState(null);
-
-    // const handleInputChange = (e) => {
-    //     const { name, value } = e.target;
-    //     setFormData({ ...formData, [name]: value });
-    // };
 
     const handleImageChange = (e) => {
         const imageFile = e.target.files[0];
         setImage(URL.createObjectURL(imageFile));
         setFormData({ ...formData, image: imageFile });
     };
-
-    // const handleSubmit = (e) => {
-    //     e.preventDefault();
-    //     const cards = JSON.parse(localStorage.getItem('cards')) || [];
-    //     localStorage.setItem('cards', JSON.stringify([...cards, formData]));
-    //     setFormData({});
-    //     // history.push('/');
-    //     setFormData({});
-    //     setImage(null);
-    //     // Show modal logic
-    // };
     const [formData, setFormData] = useState({});
     const [cards, setCards] = useState([]);
 
