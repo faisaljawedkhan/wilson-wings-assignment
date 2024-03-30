@@ -23,7 +23,7 @@ const Navbar = () => {
                     <div className="second-nav-menu">
                         <ul>
                             <li><button><Link to={"/"}><span><img src={image3} alt="" /></span><span className='ms-3'>Dashboard</span></Link></button></li>
-                            <li><button><Link to={"/"}><span><img src={image4} alt="" /></span><span className='ms-3'>Companies</span></Link></button></li>
+                            <li><button><Link to={"/company"}><span><img src={image4} alt="" /></span><span className='ms-3'>Companies</span></Link></button></li>
                             <li>
                                 <div class="accordion" id="accordionExample">
                                     <div class="accordion-item">
